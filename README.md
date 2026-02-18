@@ -64,11 +64,12 @@ When your context fills up and you run `/clear`, this skill **automatically reco
 </details>
 
 <details>
-<summary><strong>🛠️ Supported IDEs (14 Platforms)</strong></summary>
+<summary><strong>🛠️ Supported IDEs (15 Platforms)</strong></summary>
 
 | IDE | Status | Installation Guide | Format |
 |-----|--------|-------------------|--------|
 | Claude Code | ✅ Full Support | [Installation](docs/installation.md) | Plugin + SKILL.md |
+| Trae IDE | ✅ Full Support | [Trae Setup](docs/trae.md) | Skills |
 | Gemini CLI | ✅ Full Support | [Gemini Setup](docs/gemini.md) | Agent Skills |
 | OpenClaw | ✅ Full Support | [OpenClaw Setup](docs/openclaw.md) | Workspace/Local Skills |
 | Kiro | ✅ Full Support | [Kiro Setup](docs/kiro.md) | Steering Files |
@@ -94,6 +95,7 @@ A Claude Code plugin that transforms your workflow to use persistent markdown fi
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://code.claude.com/docs/en/plugins)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-green)](https://code.claude.com/docs/en/skills)
+[![Trae IDE](https://img.shields.io/badge/Trae%20IDE-Skills-FF6B00)](https://trae.ai)
 [![Cursor Skills](https://img.shields.io/badge/Cursor-Skills-purple)](https://docs.cursor.com/context/skills)
 [![Kilocode Skills](https://img.shields.io/badge/Kilocode-Skills-orange)](https://kilo.ai/docs/agent-behavior/skills)
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-Skills-4285F4)](https://geminicli.com/docs/cli/skills/)
@@ -275,6 +277,9 @@ planning-with-files/
 ├── .pi/                     # Pi Agent skills
 │   └── skills/
 │       └── planning-with-files/
+├── .trae/                   # Trae IDE skills
+│   └── skills/
+│       └── planning-with-files/
 ├── CHANGELOG.md
 ├── LICENSE
 └── README.md
@@ -288,6 +293,7 @@ planning-with-files/
 | [Quick Start](docs/quickstart.md) | 5-step guide to using the pattern |
 | [Workflow Diagram](docs/workflow.md) | Visual diagram of how files and hooks interact |
 | [Troubleshooting](docs/troubleshooting.md) | Common issues and solutions |
+| [Trae IDE Setup](docs/trae.md) | Trae IDE integration guide |
 | [Gemini CLI Setup](docs/gemini.md) | Google Gemini CLI integration guide |
 | [OpenClaw Setup](docs/openclaw.md) | OpenClaw integration guide |
 | [Kiro Setup](docs/kiro.md) | Kiro steering files integration |
