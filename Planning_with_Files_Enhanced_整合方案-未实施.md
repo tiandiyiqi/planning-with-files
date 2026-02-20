@@ -1,5 +1,5 @@
 # Planning with Files Enhanced - 整合方案
-
+未实施，感觉不太有必要。
 **版本**：v2.0
 **目标**：将 Beads 和 Codemap 功能整合到 Planning with Files 模式中
 **核心原则**：人类友好优先，AI 友好次之
